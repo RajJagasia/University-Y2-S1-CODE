@@ -1,0 +1,47 @@
+<%- include('header'); -%>
+<br>
+
+<br>
+    <form method="post" action="/api/register">
+    <div class='content'> 
+        <label>Username</label> 
+        <br>
+        <input type="text" name="username" placeholder="Enter your username" required autofocus><br>
+        <br>
+        <label>Password</label> 
+        <br>
+        <input type="password" name="password" placeholder="Enter your password" required><br>
+        <br>
+        <label>Society</label>
+        <br>
+        <input type="text" name="society" placeholder="Enter your society name" required ><br>
+        <br> 
+        <label>Contact</label> <br>
+        <input type="text" name="contact" placeholder="Enter your name" required> <br>
+        <br>
+        <label>Address</label> <br>
+        <input type="text" name="addres" placeholder="Enter your address" required> <br>
+        <br>
+        <label>Zip code</label> <br>
+        <input type="text" name="zipcode" placeholder="Enter your zip code" required> <br>
+        <br>
+        <label>City</label> <br>
+        <input type="text" name="city" placeholder="Enter your city name" required> <br>
+        <br>
+        <label>Fax</label> <br>
+        <input type="text" name="fax" placeholder="Enter your fax number" required> <br>
+        <br>
+        <label>Phone</label> <br>
+        <input type="text" name="phone" placeholder="Enter your phone number" required> <br>
+        <br>
+        <label>Max Outstanding</label> <br>
+        <input type="text" name="max_outstanding" placeholder="Enter your max outstanding details" required> <br>
+        <br>
+        <button> SUBMIT </button>
+
+    </form>
+
+    <br>
+    <br>
+    
+<%- include('footer'); -%>
